@@ -1,6 +1,6 @@
 # KubernetesDeploymentProject
 ***
-Simple kubernetes deployment manifect creating . 
+Simple kubernetes deployment manifect creating deployment with 3 replicas/pods.
 
 ## 💻 Pre-requisites
 
