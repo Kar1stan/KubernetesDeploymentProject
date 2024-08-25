@@ -27,5 +27,5 @@ $ kubectl delete -f deployment-myweb-v1.yaml
 ```
 To show details of the deployment,open the terminal and run:
 ```
-$ kubectl describe deployment my-web
+$ kubectl describe deployment my-web-deployment
 ```
