@@ -1,6 +1,6 @@
 # KubernetesDeploymentProject
 ***
-Simple kubernetes deployment manifect creating deployment with 3 replicas/pods.
+Simple kubernetes deployment manifect creating deployment with 3 replicas/pods and autoscaling.
 
 ## 💻 Pre-requisites
 
@@ -32,4 +32,8 @@ $ kubectl describe deployment my-web-deployment
 To connect IP and open server locally,open the terminal and run:
 ```
 $ kubectl port-forward my-web-deployment 8888:80
+```
+To see cpu utilization,open the terminal and run:
+```
+$ kubectl get hpa
 ```
