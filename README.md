@@ -29,3 +29,7 @@ To show details of the deployment,open the terminal and run:
 ```
 $ kubectl describe deployment my-web-deployment
 ```
+To connect IP and open server locally,open the terminal and run:
+```
+$ kubectl port-forward my-web-deployment 8888:80
+```
