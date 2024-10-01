@@ -23,7 +23,7 @@ $ kubectl apply -f deployment-myweb-v1.yaml
 ```
 To delete deployment,open the terminal and run:
 ```
-$ kubectl delete -f deployment-myweb-v1.yaml
+$ kubectl delete deployment deployment-myweb-v1
 ```
 To show details of the deployment,open the terminal and run:
 ```
